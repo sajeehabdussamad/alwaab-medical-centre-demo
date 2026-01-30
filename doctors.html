@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al Waab Medical Centre | Doctors</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/docCSS.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/alwaab-logo.png" alt="">
+            <p>Al Waab Medical Centre</p>
+        </div>
+
+        <div class="desk-contact">
+            <a href="tel:40160333" class="phone-item">Hotline: 40160333</a>
+            <a href="tel:50084441" class="phone-item">ENT & Dental: 50084441</a>
+            <a href="tel:50074441" class="phone-item">Dermatology & Cardio: 50074441</a>
+        </div>
+
+        <div class="hamburger" onclick="toggleMenu()">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+
+        <nav class="nav-overlay" id="navOverlay">
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="departments.html">Our Departments</a></li>
+            <li><a href="doctors.html">Our Doctors</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+
+        <div class="menu-contact">
+            <h4>Quick Contact</h4>
+            <a href="tel:40160333" class="phone-item">Hotline: 40160333</a>
+            <a href="tel:50084441" class="phone-item">ENT & Dental: 50084441</a>
+            <a href="tel:50074441" class="phone-item">Dermatology & Cardio: 50074441</a>
+        </div>
+
+    </header>
+
+    <main class="doctors-container">
+        <div class="doctors-header">
+            <h1 class="playfair">Our Medical Specialists</h1>
+            <p class="lato">Meet the world-class team dedicated to your health and wellness at Al Waab Medical Centre.</p>
+        </div>
+
+        <div class="doctor-filter lato">
+            <button class="filter-btn active">All Specialists</button>
+            <button class="filter-btn">Dental</button>
+            <button class="filter-btn">ENT</button>
+            <button class="filter-btn">Dermatology</button>
+            <button class="filter-btn">Cardiology</button>
+        </div>
+
+        <div class="doctors-grid">
+            
+            <div class="doctor-card">
+                <div class="doctor-img">
+                    <img src="images/hero.png" alt="ENT Specialist">
+                    <span class="dept-tag ent-tag">ENT Specialist</span>
+                </div>
+                <div class="doctor-info">
+                    <h2 class="playfair">Dr. Ahmed Mansour</h2>
+                    <p class="lato credentials">MBBS, MD - Senior Consultant</p>
+                    <p class="lato bio">Expert in advanced endoscopic sinus surgery and pediatric ENT care with over 15 years of clinical experience.</p>
+                    <div class="doctor-actions">
+                        <a href="https://wa.me/97450084441" class="book-btn lato">Book Appointment</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="doctor-card">
+                <div class="doctor-img">
+                    <img src="images/dentist.jpg" alt="Dental Surgeon">
+                    <span class="dept-tag dental-tag">Dental Surgeon</span>
+                </div>
+                <div class="doctor-info">
+                    <h2 class="playfair">Dr. Sarah Khalil</h2>
+                    <p class="lato credentials">DDS, MSc - Cosmetic Dentist</p>
+                    <p class="lato bio">Specializing in Hollywood Smile makeovers, veneers, and advanced restorative dentistry for a perfect smile.</p>
+                    <div class="doctor-actions">
+                        <a href="https://wa.me/97450084441" class="book-btn lato">Book Appointment</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="doctor-card">
+                <div class="doctor-img">
+                    <img src="images/dermatologist.jpg" alt="Dermatologist">
+                    <span class="dept-tag derma-tag">Dermatology</span>
+                </div>
+                <div class="doctor-info">
+                    <h2 class="playfair">Dr. Elena Rossi</h2>
+                    <p class="lato credentials">MD, PhD - Dermatologist</p>
+                    <p class="lato bio">A leading expert in clinical dermatology and aesthetic laser treatments, focused on skin rejuvenation.</p>
+                    <div class="doctor-actions">
+                        <a href="https://wa.me/97450074441" class="book-btn lato">Book Appointment</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="doctor-card">
+                <div class="doctor-img">
+                    <img src="images/cardiologist.jpg" alt="Cardiologist">
+                    <span class="dept-tag cardio-tag">Cardiology</span>
+                </div>
+                <div class="doctor-info">
+                    <h2 class="playfair">Dr. John Smith</h2>
+                    <p class="lato credentials">MD, FACC - Cardiologist</p>
+                    <p class="lato bio">Specializing in preventative heart health, hypertension management, and comprehensive cardiac screenings.</p>
+                    <div class="doctor-actions">
+                        <a href="https://wa.me/97450074442" class="book-btn lato">Book Appointment</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3 class="footer-logo">Al Waab Medical Centre</h3>
+                <p class="footer-desc">Providing world-class specialized healthcare services in the heart of Al Waab, Doha. Trusted by over 36,000 patients.</p>
+                <div class="social-links">
+                    <a href="https://instagram.com/alwaabmedicalcenter" target="_blank">Instagram</a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Clinic Hours</h4>
+                <ul class="hours-list">
+                    <li><span>Sat - Thu:</span> <span>9:00 AM - 9:00 PM</span></li>
+                    <li><span>Friday:</span> <span>Closed</span></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Get In Touch</h4>
+                <p>Al Waab Street, Doha, Qatar</p>
+                <a href="tel:40160333" class="footer-contact">Hotline: 40160333</a>
+                <a href="mailto:info@alwaabmedical.com" class="footer-contact">info@alwaabmedical.com</a>
+            </div>
+        </div>
+
+        <div class="footer-map">
+            <div class="map-placeholder">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101476.74242051302!2d51.4724049!3d25.2685013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45db27d053f80f%3A0x472b0164edbb5cf1!2zQWwgV2FhYiBNZWRpY2FsIENlbnRlciDZhdix2YPYsiDYp9mE2YjYudioINin2YTYt9io2Yo!5e1!3m2!1sen!2sqa!4v1769716158740!5m2!1sen!2sqa" 
+                width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Al Waab Medical Centre. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

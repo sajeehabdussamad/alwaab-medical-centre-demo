@@ -1,0 +1,116 @@
+/* Alt About Styles */
+.about-intro-center {
+    padding: 120px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.container-small {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.lato-label {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: var(--sky-blue);
+    font-weight: 700;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.about-intro-center h1 {
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+    line-height: 1.1;
+}
+
+/* Values Grid */
+.values-section {
+    padding: 80px 0;
+    background-color: #f9fbfd;
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    padding: 0 20px;
+}
+
+.value-item {
+    background: white;
+    padding: 50px 40px;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.03);
+    transition: 0.3s;
+}
+
+.value-item:hover {
+    transform: translateY(-10px);
+}
+
+.value-num {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    color: #eef2f6; /* Subtle large number */
+    display: block;
+    margin-bottom: -20px;
+}
+
+.value-item h3 {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+}
+
+/* Overlap Section */
+.about-overlap {
+    padding: 120px 20px;
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.overlap-image {
+    width: 60%;
+}
+
+.overlap-image img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.overlap-card {
+    width: 50%;
+    background: var(--primary-blue);
+    color: white;
+    padding: 60px;
+    position: absolute;
+    right: 0;
+    border-radius: 12px;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.15);
+}
+
+.overlap-card h2 { color: white; margin-bottom: 20px; }
+
+.stats-list-alt {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.stats-list-alt li {
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+/* Mobile */
+@media (max-width: 992px) {
+    .about-overlap { flex-direction: column; padding: 60px 20px; }
+    .overlap-image, .overlap-card { width: 100%; position: static; }
+    .overlap-card { margin-top: -50px; }
+}

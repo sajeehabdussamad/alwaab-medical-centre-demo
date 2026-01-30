@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al Waab Medical Centre | Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/alwaab-logo.png" alt="">
+            <p>Al Waab Medical Centre</p>
+        </div>
+
+        <div class="desk-contact">
+            <a href="tel:40160333" class="phone-item">Hotline: 40160333</a>
+            <a href="tel:50084441" class="phone-item">ENT & Dental: 50084441</a>
+            <a href="tel:50074441" class="phone-item">Dermatology & Cardio: 50074441</a>
+        </div>
+
+        <div class="hamburger" onclick="toggleMenu()">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+
+        <nav class="nav-overlay" id="navOverlay">
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="departments.html">Our Departments</a></li>
+            <li><a href="doctors.html">Our Doctors</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+
+        <div class="menu-contact">
+            <h4>Quick Contact</h4>
+            <a href="tel:40160333" class="phone-item">Hotline: 40160333</a>
+            <a href="tel:50084441" class="phone-item">ENT & Dental: 50084441</a>
+            <a href="tel:50074441" class="phone-item">Dermatology & Cardio: 50074441</a>
+        </div>
+
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1 style="font-family: 'Playfair Display', serif;">Expert Care in Al Waab</h1>
+            <p style="font-family: 'Lato', sans-serif;">Providing specialized medical services with a focus on patient comfort and advanced technology.</p>
+            <div class="cta-buttons">
+                <a href="tel:40160333" class="btn-main">Call Hotline</a>
+                <a href="https://wa.me/97450084441" class="btn-whatsapp">WhatsApp Us</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="services-header">
+        <h1>Our Specialized Services</h1>
+        <p>Comprehensive healthcare tailored to the Al Waab community.</p>
+
+        <div class="container">
+        
+            <div class="service-block">
+                <div class="service-image">
+                    <img src="images/specialities/ent.jpg" alt="ENT Specialist">
+                </div>
+                <div class="service-text">
+                    <h2>ENT (Ear, Nose & Throat)</h2>
+                    <ul class="service-list">
+                        <li>Sinus & Allergy Treatment</li>
+                        <li>Hearing Assessments</li>
+                        <li>Pediatric ENT Care</li>
+                        <li>Throat & Voice Disorders</li>
+                    </ul>
+                    <a href="tel:50084441" class="contact-pill">Call Department: 50084441</a>
+                </div>
+            </div>
+
+            <div class="service-block">
+                <div class="service-image">
+                    <img src="images/specialities/dental.jpg" alt="Dental Care">
+                </div>
+                <div class="service-text">
+                    <h2>Dental Care</h2>
+                    <ul class="service-list">
+                        <li>General Dentistry & Cleaning</li>
+                        <li>Teeth Whitening & Veneers</li>
+                        <li>Orthodontics & Braces</li>
+                        <li>Emergency Dental Services</li>
+                    </ul>
+                    <a href="tel:50084441" class="contact-pill">Call Department: 50084441</a>
+                </div>
+            </div>
+
+            <div class="service-block">
+                <div class="service-image">
+                    <img src="images/specialities/dermatology.jpg" alt="Dermatology and Laser">
+                </div>
+                <div class="service-text">
+                    <h2>Dermatology & Laser</h2>
+                    <ul class="service-list">
+                        <li>Laser Hair Removal</li>
+                        <li>Clinical Dermatology (Acne/Eczema)</li>
+                        <li>Cosmetic Injectables (Botox/Fillers)</li>
+                        <li>Skin Rejuvenation</li>
+                    </ul>
+                    <a href="tel:50074441" class="contact-pill">Call Department: 50074441</a>
+                </div>
+            </div>
+
+            <div class="service-block">
+                <div class="service-image">
+                    <img src="images/specialities/cardio.jpg" alt="Cardiology and Internal Medicine">
+                </div>
+                <div class="service-text">
+                    <h2>Cardiology & Internal Medicine</h2>
+                    <ul class="service-list">
+                        <li>Heart Health Screenings (ECG)</li>
+                        <li>Hypertension & Diabetes Management</li>
+                        <li>Preventative Health Checkups</li>
+                        <li>Chronic Disease Care</li>
+                    </ul>
+                    <a href="tel:50074442" class="contact-pill">Call Department: 50074442</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="booking-section">
+        <div class="booking-container">
+            <div class="booking-content">
+                <h2 class="playfair">Instant Appointment Booking</h2>
+                <p class="lato">Skip the wait. Connect directly with our department coordinators via WhatsApp for fast scheduling and inquiries.</p>
+                
+                <div class="whatsapp-grid">
+                    <a href="https://wa.me/97450084441" class="wa-card">
+                        <div class="wa-icon">🦷</div>
+                        <div class="wa-info">
+                            <span class="dept-label">Dental & ENT</span>
+                            <span class="wa-number">50084441</span>
+                        </div>
+                    </a>
+
+                    <a href="https://wa.me/97450074441" class="wa-card">
+                        <div class="wa-icon">✨</div>
+                        <div class="wa-info">
+                            <span class="dept-label">Dermatology & Laser</span>
+                            <span class="wa-number">50074441</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="booking-note">
+                    <p class="lato">Our team typically responds within 15 minutes during clinic hours.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="social-impact-section">
+        <div class="impact-content">
+            <div class="verified-seal">
+                <svg class="check-icon" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                <span>Official Verified Healthcare Provider</span>
+            </div>
+
+            <h2 class="playfair">Trusted by a community of 36,000+ patients.</h2>
+            
+            <p class="lato">Join our growing community in Al Waab. We share daily health insights, doctor Q&A sessions, and clinical excellence updates every day on our official channel.</p>
+
+            <div class="stats-row">
+                <div class="stat-item">
+                    <span class="stat-number">36.8K</span>
+                    <span class="stat-label">Followers</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number">Verified</span>
+                    <span class="stat-label">Status</span>
+                </div>
+            </div>
+
+            <a href="https://instagram.com/alwaabmedicalcenter" target="_blank" class="ig-banner-btn">
+                Follow @alwaabmedicalcenter
+            </a>
+        </div>
+    </section>
+
+    <section class="ig-gallery-section">
+        <div class="gallery-intro">
+            <h2 class="playfair">Visualizing Wellness</h2>
+            <p class="lato">Follow <a href="https://instagram.com/alwaabmedicalcenter" target="_blank">@alwaabmedicalcenter</a> for a closer look at our world-class facilities and expert care.</p>
+        </div>
+
+        <div class="masonry-gallery">
+            <div class="gallery-item tall">
+                <img src="images/instagram images/reception.jpg" alt="Modern Clinic Reception">
+                <div class="gallery-overlay">
+                    <span class="lato">Boutique Environment</span>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/specialities/dental.jpg" alt="Dental Care">
+                <div class="gallery-overlay">
+                    <span class="lato">Smile Excellence</span>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/instagram images/laser.jpg" alt="Dermatology Laser">
+                <div class="gallery-overlay">
+                    <span class="lato">Advanced Laser Tech</span>
+                </div>
+            </div>
+
+            <div class="gallery-item tall">
+                <img src="images/instagram images/doctor.jpg" alt="Doctor Consultation">
+                <div class="gallery-overlay">
+                    <span class="lato">Patient-First Care</span>
+                </div>
+            </div>
+
+            <div class="gallery-item wide">
+                <img src="images/instagram images/waiting area.jpg" alt="Luxury Waiting Lounge">
+                <div class="gallery-overlay">
+                    <span class="lato">Comfort Reimagined</span>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/instagram images/instruments.jpg" alt="Medical Instruments">
+                <div class="gallery-overlay">
+                    <span class="lato">Precision Diagnostics</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-footer">
+            <a href="https://instagram.com/alwaabmedicalcenter" target="_blank" class="ig-follow-btn lato">
+                View All Posts
+            </a>
+        </div>
+    </section>
+
+    <section class="insurance-section">
+        <div class="insurance-container">
+            <div class="insurance-header">
+                <h2 class="playfair">Direct Billing & Insurance</h2>
+                <p class="lato">We accept a wide range of national and international insurance providers to make your visit as seamless as possible.</p>
+            </div>
+
+            <div class="logo-grid">
+                <div class="insurance-logo"><img src="images/insurances/qlm.png" alt="QLM"></div>
+                <div class="insurance-logo"><img src="images/insurances/alkoot.png" alt="Al Koot"></div>
+                <div class="insurance-logo"><img src="images/insurances/gig.png" alt="GIG Insurance"></div>
+                <div class="insurance-logo"><img src="images/insurances/allianz.png" alt="Allianz"></div>
+                <div class="insurance-logo"><img src="images/insurances/metlif.jpg" alt="MetLife"></div>
+            </div>
+
+            <div class="insurance-footer">
+                <p class="lato">Don't see your provider? <a href="https://wa.me/97440160333">Contact our insurance coordinator</a> to verify your coverage instantly.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3 class="footer-logo">Al Waab Medical Centre</h3>
+                <p class="footer-desc">Providing world-class specialized healthcare services in the heart of Al Waab, Doha. Trusted by over 36,000 patients.</p>
+                <div class="social-links">
+                    <a href="https://instagram.com/alwaabmedicalcenter" target="_blank">Instagram</a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Clinic Hours</h4>
+                <ul class="hours-list">
+                    <li><span>Sat - Thu:</span> <span>9:00 AM - 9:00 PM</span></li>
+                    <li><span>Friday:</span> <span>Closed</span></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Get In Touch</h4>
+                <p>Al Waab Street, Doha, Qatar</p>
+                <a href="tel:40160333" class="footer-contact">Hotline: 40160333</a>
+                <a href="mailto:info@alwaabmedical.com" class="footer-contact">info@alwaabmedical.com</a>
+            </div>
+        </div>
+
+        <div class="footer-map">
+            <div class="map-placeholder">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101476.74242051302!2d51.4724049!3d25.2685013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45db27d053f80f%3A0x472b0164edbb5cf1!2zQWwgV2FhYiBNZWRpY2FsIENlbnRlciDZhdix2YPYsiDYp9mE2YjYudioINin2YTYt9io2Yo!5e1!3m2!1sen!2sqa!4v1769716158740!5m2!1sen!2sqa" 
+                height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Al Waab Medical Centre. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

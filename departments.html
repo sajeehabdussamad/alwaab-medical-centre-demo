@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al Waab Medical Centre | Departments</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/deptCSS.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/alwaab-logo.png" alt="">
+            <p>Al Waab Medical Centre</p>
+        </div>
+
+        <div class="desk-contact">
+            <a href="tel:40160333" class="phone-item">Hotline: 40160333</a>
+            <a href="tel:50084441" class="phone-item">ENT & Dental: 50084441</a>
+            <a href="tel:50074441" class="phone-item">Dermatology & Cardio: 50074441</a>
+        </div>
+
+        <div class="hamburger" onclick="toggleMenu()">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+
+        <nav class="nav-overlay" id="navOverlay">
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="departments.html">Our Departments</a></li>
+            <li><a href="doctors.html">Our Doctors</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+
+        <div class="menu-contact">
+            <h4>Quick Contact</h4>
+            <a href="tel:40160333" class="phone-item">Hotline: 40160333</a>
+            <a href="tel:50084441" class="phone-item">ENT & Dental: 50084441</a>
+            <a href="tel:50074441" class="phone-item">Dermatology & Cardio: 50074441</a>
+        </div>
+
+    </header>
+
+    <div class="dept-page-header">
+        <h1 class="playfair">Our Departments</h1>
+        <p class="lato">Specialized clinical excellence in the heart of Doha.</p>
+    </div>
+
+    <main class="departments-wrapper">
+        <aside class="dept-sidebar">
+            <h4 class="lato">Clinical Specialties</h4>
+            <ul class="lato">
+                <li><a href="#ent">Ear, Nose & Throat</a></li>
+                <li><a href="#dental">Dental & Oral Health</a></li>
+                <li><a href="#derma">Dermatology & Laser</a></li>
+                <li><a href="#cardio">Cardiology & Internal Medicine</a></li>
+                <!-- <li><a href="#internal">General Medicine</a></li> -->
+            </ul>
+            
+            <div class="sidebar-contact">
+                <p class="lato">General Hotline</p>
+                <a href="tel:40160333" class="lato">40160333</a>
+            </div>
+        </aside>
+
+        <div class="dept-content-area">
+            
+            <section id="ent" class="dept-detail-block">
+                <div class="dept-hero-img">
+                    <img src="images/specialities/ent.jpg" alt="ENT Specialist Consultation">
+                </div>
+                <div class="dept-text-grid">
+                    <div class="dept-main-info">
+                        <h2 class="playfair">Ear, Nose & Throat (ENT)</h2>
+                        <p class="lato">Our ENT department is a cornerstone of Al Waab Medical Centre. We provide expert diagnostic and surgical care for a wide range of head and neck conditions. Our facility is equipped with specialized diagnostic video-endoscopy for precise evaluations.</p>
+                    </div>
+                    <div class="dept-sub-services">
+                        <h5 class="lato">Specialized Services</h5>
+                        <ul class="lato">
+                            <li>Sinusitis and Nasal Allergy Treatment</li>
+                            <li>Snoring and Sleep Apnea Management</li>
+                            <li>Hearing Loss and Balance Disorders</li>
+                            <li>Tonsil and Adenoid Consultations</li>
+                            <li>Voice and Swallowing Disorders</li>
+                        </ul>
+                        <div class="dept-cta">
+                            <span class="lato">Direct Booking:</span>
+                            <a href="tel:50084441" class="lato">50084441</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="dental" class="dept-detail-block">
+                <div class="dept-hero-img">
+                    <img src="images/specialities/dental.jpg" alt="Advanced Dental Suite">
+                </div>
+                <div class="dept-text-grid">
+                    <div class="dept-main-info">
+                        <h2 class="playfair">Dental & Oral Health</h2>
+                        <p class="lato">Dedicated to creating healthy, confident smiles. Our dental clinic combines aesthetic artistry with clinical precision. We focus on preventative care and the latest in restorative dentistry in a comfortable, modern environment.</p>
+                    </div>
+                    <div class="dept-sub-services">
+                        <h5 class="lato">Core Specialties</h5>
+                        <ul class="lato">
+                            <li>Cosmetic Dentistry (Veneers & Whitening)</li>
+                            <li>Orthodontics (Invisalign and Braces)</li>
+                            <li>Prosthodontics (Crowns and Bridges)</li>
+                            <li>Pediatric Dentistry for Children</li>
+                            <li>Oral Surgery & Implants</li>
+                        </ul>
+                        <div class="dept-cta">
+                            <span class="lato">Dental Reception:</span>
+                            <a href="tel:50084441" class="lato">50084441</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="derma" class="dept-detail-block">
+                <div class="dept-hero-img">
+                    <img src="images/specialities/dermatology.jpg" alt="Dermatology and Laser Treatment">
+                </div>
+                <div class="dept-text-grid">
+                    <div class="dept-main-info">
+                        <h2 class="playfair">Dermatology, Laser & Cosmetics</h2>
+                        <p class="lato">From clinical skin conditions to advanced cosmetic enhancements, our dermatology department offers a full spectrum of skin health. We utilize medical-grade laser technology for safe and effective results.</p>
+                    </div>
+                    <div class="dept-sub-services">
+                        <h5 class="lato">Aesthetic & Clinical</h5>
+                        <ul class="lato">
+                            <li>Medical Laser Hair Removal</li>
+                            <li>Clinical Acne and Eczema Treatment</li>
+                            <li>Botox, Fillers, and Skin Boosters</li>
+                            <li>Chemical Peels & HydraFacial</li>
+                            <li>Mole Mapping & Skin Checks</li>
+                        </ul>
+                        <div class="dept-cta">
+                            <span class="lato">Cosmetic Line:</span>
+                            <a href="tel:50074441" class="lato">50074441</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="cardio" class="dept-detail-block">
+                <div class="dept-hero-img">
+                    <img src="images/specialities/cardio.jpg" alt="Cardiology Diagnostic Center">
+                </div>
+                <div class="dept-text-grid">
+                    <div class="dept-main-info">
+                        <h2 class="playfair">Cardiology & Internal Medicine</h2>
+                        <p class="lato">Our heart health and internal medicine team focuses on preventative care and the management of chronic conditions. We provide comprehensive screenings to ensure your long-term wellness.</p>
+                    </div>
+                    <div class="dept-sub-services">
+                        <h5 class="lato">Internal Specialties</h5>
+                        <ul class="lato">
+                            <li>Cardiac Screenings & ECG</li>
+                            <li>Hypertension (Blood Pressure) Management</li>
+                            <li>Diabetes & Thyroid Care</li>
+                            <li>General Health Check-ups</li>
+                            <li>Infectious Disease Management</li>
+                        </ul>
+                        <div class="dept-cta">
+                            <span class="lato">Internal Medicine:</span>
+                            <a href="tel:50074442" class="lato">50074442</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3 class="footer-logo">Al Waab Medical Centre</h3>
+                <p class="footer-desc">Providing world-class specialized healthcare services in the heart of Al Waab, Doha. Trusted by over 36,000 patients.</p>
+                <div class="social-links">
+                    <a href="https://instagram.com/alwaabmedicalcenter" target="_blank">Instagram</a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Clinic Hours</h4>
+                <ul class="hours-list">
+                    <li><span>Sat - Thu:</span> <span>9:00 AM - 9:00 PM</span></li>
+                    <li><span>Friday:</span> <span>Closed</span></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Get In Touch</h4>
+                <p>Al Waab Street, Doha, Qatar</p>
+                <a href="tel:40160333" class="footer-contact">Hotline: 40160333</a>
+                <a href="mailto:info@alwaabmedical.com" class="footer-contact">info@alwaabmedical.com</a>
+            </div>
+        </div>
+
+        <div class="footer-map">
+            <div class="map-placeholder">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101476.74242051302!2d51.4724049!3d25.2685013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45db27d053f80f%3A0x472b0164edbb5cf1!2zQWwgV2FhYiBNZWRpY2FsIENlbnRlciDZhdix2YPYsiDYp9mE2YjYudioINin2YTYt9io2Yo!5e1!3m2!1sen!2sqa!4v1769716158740!5m2!1sen!2sqa" 
+                width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Al Waab Medical Centre. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
